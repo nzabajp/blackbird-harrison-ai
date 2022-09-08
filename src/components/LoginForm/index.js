@@ -49,7 +49,7 @@ export default function LoginForm() {
       email: data.get('email'),
       password: data.get('password'),
     });
-    // validateForm(event);
+    //edited code below
     if(validateForm(event)) setShowAlert("Login Successful");
   };
 
